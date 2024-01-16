@@ -1,0 +1,112 @@
+
+/*Fonts*/
+@font-face {
+    font-family: 'Motter Corpus Std';
+    src: url('assest/font/MotterCorpusStd-Regular.woff2') format('woff2'),
+        url('assest/font/MotterCorpusStd-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+#header{
+    height:40em;
+    width: auto;
+    background:#FFF3DC;
+    position: relative;
+    background-image: url(../img/fondo1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo{
+    height: 150px;
+    width: auto;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+}
+.tit-header{
+    font-size: 3rem;
+    line-height: 3rem;
+    padding-top: 200px;
+    position:absolute;
+    z-index: 10;
+   left: 40px;
+   font-family: 'Motter Corpus Std';
+   color: #92A419;
+   width: 400px;
+}
+
+
+
+#productos{
+    display: flex;
+    flex-direction: row;
+    columns: 2;
+}
+.producto{
+    width: 400px;
+    height: auto;
+}
+.tit-producto{
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #303030;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sku{
+    font-family: 'Montserrat', sans-serif;
+    color: #303030;
+    font-size: 1rem;
+}
+.sku span{
+    font-family: 'Montserrat', sans-serif;
+    color: #999;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+.subtitulo-precio{
+    color: #666;
+    font-family: 'Montserrat', sans-serif;
+    font: 1rem;
+    line-height: 1rem;
+}
+.precio{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #92a419;
+}
+
+ /* Estilos para la tabla */
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin: 50px auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFF2DB;
+}
+footer{
+    background: #92A419;
+    margin: 0px;
+    padding: 40px;
+}
+footer h1{
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
