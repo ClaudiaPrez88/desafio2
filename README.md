@@ -2,4 +2,4 @@
 
 ## Captura de Pantalla
 
-![Captura de Pantalla](assets/img/fondo1.png)
+![Captura de Pantalla](assets/img/captura.png)
